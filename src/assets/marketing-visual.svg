@@ -1,0 +1,43 @@
+<svg width="760" height="560" viewBox="0 0 760 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="80" x2="680" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0EDFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="140" y1="440" x2="620" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C5DD3"/>
+      <stop offset="1" stop-color="#A69BFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#433B8A" flood-opacity=".12"/></filter>
+  </defs>
+  <rect x="35" y="35" width="690" height="490" rx="42" fill="url(#bg)" stroke="#E4E0F4"/>
+  <g opacity=".45" stroke="#DCD7F0" stroke-dasharray="5 8">
+    <path d="M90 150H670"/><path d="M90 250H670"/><path d="M90 350H670"/><path d="M90 450H670"/>
+    <path d="M170 100V470"/><path d="M300 100V470"/><path d="M430 100V470"/><path d="M560 100V470"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="115" y="115" width="430" height="300" rx="24" fill="white"/>
+    <rect x="140" y="145" width="145" height="14" rx="7" fill="#26233B"/>
+    <rect x="140" y="175" width="88" height="9" rx="4.5" fill="#C9C4DD"/>
+    <path d="M145 350C185 325 205 330 235 286C264 244 285 310 320 270C350 235 372 272 405 218C438 165 464 210 520 158" stroke="url(#purple)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="520" cy="158" r="10" fill="#6C5DD3"><animate attributeName="r" values="8;13;8" dur="2s" repeatCount="indefinite"/></circle>
+    <rect x="140" y="210" width="54" height="18" rx="9" fill="#F0EDFF"/><rect x="205" y="210" width="70" height="18" rx="9" fill="#F0EDFF"/>
+    <rect x="145" y="373" width="42" height="16" rx="8" fill="#E9E5FA"/><rect x="195" y="373" width="72" height="16" rx="8" fill="#E9E5FA"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="500" y="345" width="145" height="105" rx="18" fill="#19182B"/>
+    <text x="522" y="375" fill="#BDB7D9" font-family="Arial" font-size="11">CAMPAIGN ROI</text>
+    <text x="522" y="410" fill="white" font-family="Arial" font-size="25" font-weight="700">+128%</text>
+    <path d="M520 430C545 417 553 425 570 407C586 391 597 412 618 384" stroke="#9B8FFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="625" cy="125" r="42" fill="#6C5DD3" opacity=".12"><animate attributeName="r" values="36;48;36" dur="3s" repeatCount="indefinite"/></circle>
+    <path d="M608 124h29l16-13v37l-16-13h-29v-11Z" fill="#6C5DD3"/>
+    <path d="M607 136c-9 4-9 18 0 22" stroke="#6C5DD3" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#6C5DD3">
+    <circle cx="92" cy="96" r="5"><animate attributeName="cy" values="96;82;96" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="670" cy="280" r="6"><animate attributeName="cy" values="280;265;280" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="625" cy="480" r="4"><animate attributeName="cy" values="480;468;480" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

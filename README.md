@@ -1,23 +1,44 @@
 # BananaBrand
 
-Responsive React + Vite marketing agency website.
+BananaBrand is a modern digital solutions platform focused on web development, creative services, digital marketing, and media production.
 
-## Routes
-- `/` — Home
-- `/meet-the-team` — Meet The Team page
+## 🚀 About BananaBrand
 
-## Main structure
-- `src/components/Navbar.jsx` — responsive desktop/mobile navigation
-- `src/components/MeetTheTeam.jsx` — team page
-- `src/data/team.js` — founder/team member data
-- `src/data/content.js` — navigation, services and brand data
-- `src/styles/global.css` — global and responsive styles
-- `src/assets/marketing-visual.svg` — marketing animation
+We help businesses build a strong digital presence through:
 
-## Run
-```bash
-npm install
-npm run dev
-```
+- 🌐 Web Development
+- 📱 Responsive Web Design
+- 📈 Digital Marketing
+- 🎬 Video Editing
+- 🎨 Branding & Creative Design
+- 💻 Custom Digital Solutions
 
-Replace the placeholder team names/initials in `src/data/team.js` with the actual BananaBrand team data and images when ready.
+## ✨ Features
+
+- Modern and responsive UI
+- Mobile-friendly navigation
+- Fast and optimized frontend
+- Interactive sections and components
+- Responsive design for desktop, tablet, and mobile
+- Modern React-based architecture
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git & GitHub
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── data/
+├── lib/
+├── styles/
+├── App.jsx
+└── main.jsx
